@@ -1,0 +1,75 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    background-image:url(img/sunrise.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.form-1{
+    width: 300px;
+    box-shadow: 0,0,0,3px;
+    background-color:white;
+    padding: 20px;
+    margin: 8px auto;
+    text-align: center;
+
+}
+img{
+    width: 70px;
+    border-radius: 50%;
+}
+.box{
+     width: 350px;
+    box-shadow: 0,0,0,3px;
+    background-color:royalblue;
+    padding: 10px;
+    margin: 8px auto;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 20px;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.name{
+    width:40%;
+     border: 1px solid black;
+    height: 35px;
+     padding: 10px ;
+    margin: 10px ;
+}
+.input{
+    padding: 10px ;
+    margin: 10px 0;
+    border: 1px solid black;
+    outline: none;
+    width: 100%;
+}
+.form-1 h1{
+    color: royalblue;
+    margin-bottom: 20px;
+}
+
+button{
+    border-radius: 20px;
+    width:100%;
+        color:#fff;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: 1c8adb;
+}

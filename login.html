@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <script>
+    function hello() {
+        alert("Login successful , Thank you")
+    }
+         function password() {
+        alert("this is a demo site, please try something else!")
+    }
+     
+    </script>
+    <script>
+    var a=5;
+        setInterval()
+    </script>
+    <style>
+     body {
+            background-image: url("img/sea.jpg");
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-attachment: fixed;
+         padding: 0px;
+         margin: 0px;
+         background-size: cover;
+         background-position: center;
+         font-family: sans-serif;
+        }
+        .square{
+            width: 320px;
+            height: 420px;
+            background-color: black;
+           top:50%;
+            left:50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            box-sizing: border-box;70px 30px;
+            padding:70px 30px;
+        }
+        .avatar{
+            width:100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top:-50px;
+            left:calc(50% - 50px);
+        }
+      .square h1{
+            color:white;
+          margin: 0px;
+          padding: 0px;
+           
+        }
+        .square p{
+            color:white;
+            margin: 0px;
+            padding: 0px;
+            font-weight: bold;
+        }
+        .square input{
+            width:100%;
+            margin-bottom: 20px;
+        }
+        .square input[type="name"],[type="password"]{
+            border: none;
+            border-bottom: 1px solid white;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color:white;
+            font-size: 20px;
+        }
+        .square input[type="button"]{
+            border:none;
+            outline:none;
+            height:40px;
+            background: red;
+            color:white;
+            font-size: 20px;
+            border-radius: 20px;
+        }
+        .square input[type="button"]:hover {
+            background: blue;
+            color:black;
+            cursor:pointer;
+        }
+        .square a{
+            color:gray;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .square a:hover{
+            color:red;
+            font-size: 20px;
+        }
+        .avatar:hove{
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+<body>
+    <div class="square">
+        <div class="for_hover">
+       <img src="img/avatar.png"  class="avatar">
+            </div>
+      <h1>Login Here</h1>
+        <form>
+        <p >User Name</p>
+            <input type="name" value="" placeholder=" Enter Username">
+            <p> Password</p>
+            <input type="password" value="" placeholder="Password">
+            <input type="button" value="Login" onclick="hello()">
+            <a href="contract.html">Forgot Password </a>
+            <p>Don't have account? 
+                <a href="sign-in.html">Sign-up</a></p>
+            <p align=center><a href="website.html" style="margin-top: 5px 5px;">Go back</a></p>
+        
+        
+        </form>
+    </div>
+    
+    </body>
+
+</html>
